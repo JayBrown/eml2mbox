@@ -1,6 +1,9 @@
 #!/usr/bin/ruby
 # encoding: utf-8
 #============================================================================================#
+# eml2mbox.rb v0.20                                                                          #
+# Last updated: 19 Aug 2020                                                                  #
+#                                                                                            #
 # Converts a bunch of eml files into one mbox file.                                          #
 #                                                                                            #
 # Usage: [ruby] eml2mbx.rb [-a] [-c] [-h] [-l] [-m] [-s] [-yz] [emlpath [trgtmbx]]           #
@@ -313,7 +316,7 @@ if not canceled
       if $switches["ignoreExt"]
         globtext = "*"
       else
-        globtext = "*.{eml,mai}"
+        globtext = "*.{emlx,eml,mai}"
       end
       files = Dir.glob(globtext, File::FNM_CASEFOLD)
       if files.size == 0
