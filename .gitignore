@@ -1,5 +1,2 @@
-src/
-pkg/
-*.pkg.tar.*
-*.src.tar.*
-*~
+.DS_Store
+TODO
