@@ -1,7 +1,7 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 # encoding: utf-8
 #============================================================================================#
-# eml2mbox.rb v0.20                                                                          #
+# eml2mbox.rb v0.21                                                                          #
 # Last updated: 19 Aug 2020                                                                  #
 #                                                                                            #
 # Converts a bunch of eml files into one mbox file.                                          #
